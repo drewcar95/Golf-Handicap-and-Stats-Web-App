@@ -1,0 +1,19 @@
+
+<!-- import.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Import Golf Courses</title>
+</head>
+<body>
+    <h2>Import Golf Courses</h2>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label for="file">Attach Document:</label>
+        <input type="file" name="my_file" accept=".xls, .xlsx">
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
+
