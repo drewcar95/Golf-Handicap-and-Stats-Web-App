@@ -1,0 +1,28 @@
+.home-page-container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: calc(100vh - 1inch); /* 100% of viewport height minus 1 inch */
+    margin-top: 1inch; /* Add a 1-inch margin from the top */
+  }
+  
+  .home-page {
+    max-width: 800px; /* Limit the width of the content */
+    padding: 20px; /* Add padding to create a confined box */
+    text-align: center; /* Center text within the box */
+  }
+
+  .left-section {
+    width: 30%;
+    float: left;
+  }
+  
+  .middle-section {
+    width: 30%;
+    float: left;
+  }
+  
+  .right-section {
+    width: 30%;
+    float: left;
+  }
